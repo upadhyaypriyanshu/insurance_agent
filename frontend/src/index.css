@@ -420,6 +420,7 @@ button:disabled {
   }
 
   .hero-card {
+    grid-template-columns: 1fr;
     padding: 28px;
     text-align: center;
   }
@@ -433,11 +434,13 @@ button:disabled {
   }
 
   .intro-panel {
+    grid-template-columns: 1fr;
     padding: 22px;
   }
 
   .intro-actions {
     width: 100%;
+    align-items: flex-start;
   }
 
   .file-picker {
