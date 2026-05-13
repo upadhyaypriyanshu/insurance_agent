@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const apiBase = 'http://127.0.0.1:8000'
+const apiBase = 'https://insurance-agent-vi1a.onrender.com'
 
 function App() {
   const [file, setFile] = useState(null)
