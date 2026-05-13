@@ -667,4 +667,42 @@ button:disabled {
   .result-panel {
     padding: 22px;
   }
+
+  .app-container,
+  .hero-card,
+  .intro-panel,
+  .panels-grid,
+  .panel,
+  .result-panel,
+  .file-picker,
+  .highlight-grid,
+  .result-grid,
+  .fields-grid {
+    min-width: 0;
+  }
+
+  .file-picker {
+    gap: 14px;
+  }
+
+  .panel-actions,
+  .result-meta,
+  .file-details {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .panel-actions button,
+  .result-meta .ghost.small,
+  .panel-heading .ghost.small,
+  button.primary,
+  button.secondary,
+  button.ghost {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .route-badge {
+    width: 100%;
+  }
 }
